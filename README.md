@@ -1,2 +1,2 @@
-# Just-site
-Good site!!!
+# Adaptive
+adaptive
