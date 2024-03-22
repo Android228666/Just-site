@@ -5,8 +5,6 @@
 @import './components/hero';
 @import './components/avantages';
 @import './components/our-work';
-@import './components/our-team';
-@import './components/often-clients';
 @import './components/footer';
 @import './components/portfolio-button';
 @import './components/portfolio-works';
@@ -14,6 +12,10 @@ body {
   color: $text-color;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  padding-top: 35px;
+  
+  // background: url(/images/new-images/main-background2.jpg);
+  // background-color: black;
 }
 h1,
 h2,
@@ -42,7 +44,7 @@ a {
     width: 768px;
   }
 
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   width: 1200px;
+  // }
 }
