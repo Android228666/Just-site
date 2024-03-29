@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+        <!-- Header -->
+        <header>
+          <div class="container">
+              <button class = "menu-toggle" onclick="toggleMenu()">Menu</button>
+              <ul class="header-nav" id = "header-nav">
+                <li class="item">
+                  <a class="link " href="./index.html">Main</a>
+                </li>
+                <li class="item this">
+                  <a href="./portfolio.html" class="link">Services</a>
+                </li>
+                <li class="item"><a href="./contacts.html" class="link">Contact us</a></li>
+              </ul>
+          </div>
+        </header> 
+        <main>
+          <!--Hero-->
+          <section class="hero"  style = "background-color: black;"> 
+            <div class="container">
+              <h1 class="hero-title">
+                THE BEST CAR SHOP IN THE WHOLE WORLD
+              </h1>
+            </div>
+          </section> 
+          <!-- Our-service -->
+          <section class="service-section">
+            <div class="container">
+            <h1 class = "service-title">Services</h1>
+            <ul class = "service-list">
+              <li class = "item">
+                <img src="./images/new-images/service.webp" class = "service-image" alt="image">
+              </li>
+              <li class = "item">
+                <h2>We offer our pick-up and delivery service 24/7:</h2>
+                <p>Accident vehicles</p>
+                <p>Vehicles with engine damage</p>
+                <p>New vehicles</p>
+                <p>Vehicles without TÜV</p>
+                <p>Vehicles to and from abroad</p>
+              </li>
+            </ul>
+            
+            </div>
+          </section>
+               
+        <script src = "./js/toggle-menu.js"></script>
+  </body>
+</html>

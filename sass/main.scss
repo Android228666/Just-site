@@ -4,17 +4,15 @@
 @import './components/header';
 @import './components/hero';
 @import './components/avantages';
-@import './components/our-work';
-@import './components/footer';
-@import './components/portfolio-button';
-@import './components/portfolio-works';
+@import './components/services';
 body {
   color: $text-color;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   padding-top: 35px;
+  box-sizing: border-box;
   
-  // background: url(/images/new-images/main-background2.jpg);
+  //background: url(/images/new-images/back1.avif);
   // background-color: black;
 }
 h1,
@@ -43,8 +41,4 @@ a {
   @media screen and (min-width: 768px) {
     width: 768px;
   }
-
-  // @media screen and (min-width: 1200px) {
-  //   width: 1200px;
-  // }
 }
