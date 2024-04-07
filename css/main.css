@@ -151,8 +151,8 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
   height: 400px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("/images/new-images/carShop3.webp");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("/images/new-images/carShop3.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("/images/new-images/carShop3-ezgif.com-webp-to-jpg-converter.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("/images/new-images/carShop3-ezgif.com-webp-to-jpg-converter.jpg");
 }
 @media screen and (min-width: 768px) {
   .hero {
@@ -354,7 +354,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   body {
-    background: url("/images/new-images/siteBack1.webp");
+    background: url("/images/new-images/siteBack1-ezgif.com-webp-to-jpg-converter.jpg");
   }
 }
 
