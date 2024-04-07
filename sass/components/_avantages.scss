@@ -28,6 +28,8 @@
 
 .avantages-section {
   padding: 94px 0px;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
 }
 .avantages-title {
   margin-bottom: 0px;
@@ -45,6 +47,9 @@
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
+  @media screen and (max-width: 768px){
+    text-align: center;
+  }
 }
 
 .avantages-image{

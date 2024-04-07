@@ -5,11 +5,15 @@
 @import './components/hero';
 @import './components/avantages';
 @import './components/services';
+@import './components/contacts';
+@import './components/frame';
 body {
   color: $text-color;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  padding-top: 35px;
+  @media screen and (min-width: 768px){
+    padding-top: 35px;
+  }
   box-sizing: border-box;
   
   //background: url(/images/new-images/back1.avif);
@@ -20,6 +24,7 @@ h2,
 h3,
 h4 {
   color: $title-color;
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -34,6 +39,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  //background-color: #F9F9F9;
   @media screen and (min-width: 480px) {
     width: 480px;
   }
