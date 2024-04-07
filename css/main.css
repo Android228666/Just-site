@@ -15,6 +15,12 @@ header .container {
   padding-bottom: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .header-nav .item:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
 .link {
   display: inline-block;
   padding-top: 15px;
@@ -151,8 +157,9 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
   height: 400px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("/images/new-images/carShop3-ezgif.com-webp-to-jpg-converter.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("/images/new-images/carShop3-ezgif.com-webp-to-jpg-converter.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("/images/new-images/hero-back1.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("/images/new-images/hero-back1.jpg");
+  background-size: cover;
 }
 @media screen and (min-width: 768px) {
   .hero {
@@ -326,7 +333,7 @@ header .container {
 
 .contacts-section {
   padding-top: 30px;
-  padding-bottom: 150px;
+  padding-bottom: 195px;
   background-color: white;
   border-radius: 0px 0px 15px 15px;
 }
@@ -354,7 +361,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   body {
-    background: url("/images/new-images/siteBack1-ezgif.com-webp-to-jpg-converter.jpg");
+    background: url("/images/new-images/pattern-dark.png");
+    background-size: cover;
   }
 }
 
